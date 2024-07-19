@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="node_modules/animate.css/animate.min.css"
+    />
+    <link rel="stylesheet" href="/dist/magnific-popup.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+</head>
+<body>
+<header class="header wow animate__animated animate__bounce">
+    <div class="container header__container">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Logo">
+        </div>
+        <div class="burger">
+            <svg xmlns="http://www.w3.org/2000/svg" height="384pt" viewBox="0 -53 384 384" width="384pt">
+                <path d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/>
+                <path d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/>
+                <path d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/>
+            </svg>
+        </div>
+        <nav class="header__menu menu">
+            <ul class="list">
+                <li class="list__item">
+                    <a href="#ourBar" class="list__link header__link">О нас</a>
+                </li>
+                <li class="list__item">
+                    <a href="#menu" class="list__link header__link">Меню</a>
+                </li>
+                <li class="list__item">
+                    <a href="#gallery" class="list__link header__link">Галерея</a>
+                </li>
+                <li class="list__item">
+                    <a href="#location" class="list__link header__link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="work-time">
+            <div class="work-time__logo">
+                <img src="assets/images/clock.png" alt="Clock">
+            </div>
+            <div class="work-time__items">
+                <div class="work-time__item">
+                    Пн-Чт с 18 до 00
+                </div>
+                <div class="work-time__item">
+                    Пт-Сб с 20 до 5
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact__logo">
+                <img src="assets/images/phone-call.png" alt="Phone">
+            </div>
+            <div class="contact__items">
+                <div class="contact__item contact__number">
+                    8 900-500-10-10
+                </div>
+                <div class="contact__item">
+                    Звоните нам
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container main__container">
+        <h1 class="main__title wow animate__animated animate__backInLeft">С нами вы почувствуете дымный вкус жизни!</h1>
+        <div class="main__text wow animate__animated animate__backInLeft">
+            Только качественный табак и лучшее обслуживание. Мы создаем тренды в кальянных тусовках и у нас каждый
+            сможет почувствовать себя важным
+            гостем и неотъемлемой частью заведения.
+        </div>
+        <div class="main__btn wow animate__animated animate__backInLeft">
+            <button class="btn" id="orderTable">Забронировать стол</button>
+        </div>
+        <div class="main__img wow animate__animated animate__backInRight">
+            <img src="assets/images/promo.png" alt="hookah">
+        </div>
+    </div>
+</main>
+
+<section class="advantages">
+    <div class="container advantages__container">
+        <div class="advantages__item one wow animate__animated animate__backInLeft">
+            <div class="advantage__img">
+                <img src="assets/images/advantage1.png" alt="tobacco flavors">
+            </div>
+            <div class="advantage__content">
+                <h2 class="advantage__title">Лучшие вкусы табака</h2>
+                <div class="advantage__text">
+                    В нашем ассортименте представлены как эталонные бренды
+                    и вкусы, так и самые актуальные и крафтовые новинки со всего мира.
+                </div>
+            </div>
+        </div>
+        <div class="advantages__item advantages__big wow animate__animated animate__backInRight">
+            <div class="advantage__content">
+                <h2 class="advantage__title">Дискотеки каждую субботу</h2>
+                <div class="advantage__text">
+                    По субботам спокойствие и размеренность уходят
+                    на второй план, ведь начиная с 20:00 за пульты встают наши диджеи и начинаются веселые танцы.
+                </div>
+            </div>
+            <div class="advantage__img wow animate__animated animate__backInLeft">
+                <img src="assets/images/advantage3.png" alt="tobacco flavors">
+            </div>
+        </div>
+        <div class="advantages__item three wow animate__animated animate__backInRight">
+            <div class="advantage__content">
+                <h2 class="advantage__title">Отдельные VIP-комнаты</h2>
+                <div class="advantage__text">
+                    Для больших компаний есть комфортныеVIP-комнаты, где каждый сможет
+                    отметить свой праздник или просто хорошо отдохнуть.
+                </div>
+            </div>
+            <div class="advantage__img">
+                <img src="assets/images/advantage2.png" alt="tobacco flavors">
+            </div>
+        </div>
+
+        <div class="advantages__item advantages__small wow animate__animated animate__backInLeft">
+            <div class="advantage__content">
+                <h2 class="advantage__title">А еще...</h2>
+                <div class="advantage__text">
+                    Элитные сорта чая, авторские коктейли и лучшие настольные и видео-игры.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-masters" id="ourBar">
+    <div class="container">
+        <h2 class="our-masters__title title">Наши мастера</h2>
+        <div class="our-masters__description">
+            Наши кальянщики виртуозно соорудят ароматную забивку, чтобы вы получили максимальное удовольствие от
+            курения.
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="master-img">
+                        <img src="assets/images/master1.png" alt="">
+                    </div>
+                    <div class="about-master">
+                        <h3 class="master">Максим, 22 года</h3>
+                        <div class="experience">Стаж работы: 2 года</div>
+                        <div class="master-description">
+                            Забивает самые необычные вкусы в ваш кальян.
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="master-img">
+                        <img src="assets/images/master2.png" alt="">
+                    </div>
+                    <div class="about-master">
+                        <h3 class="master">Андрей, 19 лет</h3>
+                        <div class="experience">Стаж работы: 8 месяцев</div>
+                        <div class="master-description">
+                            Профессионально сыграет с вами в видео-игры во время перерыва :)
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="master-img">
+                        <img src="assets/images/master3.png" alt="">
+                    </div>
+                    <div class="about-master">
+                        <h3 class="master">Савелий, 21 год</h3>
+                        <div class="experience">Стаж работы: 1,5 года</div>
+                        <div class="master-description">
+                            Мастер оригинальных коктейлей
+                            и лучше всех заваривает чай!
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="master-img">
+                        <img src="assets/images/master4.png" alt="">
+                    </div>
+                    <div class="about-master">
+                        <h3 class="master">Иван, 25 года</h3>
+                        <div class="experience">Стаж работы: 3 года</div>
+                        <div class="master-description">
+                            Настоящий профессионал бармен создающий самые необычные коктейли.
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="master-img">
+                        <img src="assets/images/master5.png" alt="">
+                    </div>
+                    <div class="about-master">
+                        <h3 class="master">Алексей, 27 года</h3>
+                        <div class="experience">Стаж работы: 2 года</div>
+                        <div class="master-description">
+                            Эксперт по кальянам, известный своими уникальными вкусами и качественным обслуживанием.
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="master-img">
+                        <img src="assets/images/master6.png" alt="">
+                    </div>
+                    <div class="about-master">
+                        <h3 class="master">Дмитрий, 19 года</h3>
+                        <div class="experience">стажер</div>
+                        <div class="master-description">
+                            стремится учиться у лучших и готов предложить свежие идеи для кальянного меню.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container our-masters__container">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination1"></div>
+    </div>
+</section>
+
+<section class="our-menu" id="menu">
+    <div class="container">
+        <h2 class="our-menu__title title">Наше меню</h2>
+        <nav class="menu">
+            <ul class="our-menu__list">
+                <li class="list__item our-menu__list">
+                    <a href="#" class="list__link active our-menu__link">Кальяны</a>
+                </li>
+                <li class="list__item our-menu__list ">
+                    <a href="#" class="list__link our-menu__link">Закуски</a>
+                </li>
+                <li class="list__item our-menu__list">
+                    <a href="#" class="list__link our-menu__link">Чай и б/а коктейли</a>
+                </li>
+                <li class="list__item our-menu__list">
+                    <a href="#" class="list__link our-menu__link">Барная карта</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="our-menu__items our-hookah wow animate__animated">
+            <div class="our-menu__item">
+                <h3 class="our-menu__title">Классическая чаша</h3>
+                <div class="our-menu__text">
+                    <span class="text-space">абак на выбор (в ассортименте)</span>
+                    Сессия на классической чаше рассчитана на компанию
+                    до 3 гостей.
+                </div>
+                <div class="our-menu__price">
+                    750 руб.
+                </div>
+                <div class="our-menu__img first"></div>
+            </div>
+            <div class="our-menu__item">
+                <h3 class="our-menu__title">Кальян на фрукте</h3>
+                <div class="our-menu__text">
+                    <span class="text-space">Фрукт на выбор: ананас,грейпфрут,гранат.</span>
+                    Максимальная длительность курения кальяна - 90 минут.
+                </div>
+                <div class="our-menu__price">
+                    1500 руб.
+                </div>
+                <div class="our-menu__img second"></div>
+            </div>
+            <div class="our-menu__item">
+                <h3 class="our-menu__title">Премиум-кальян</h3>
+                <div class="our-menu__text">
+                    <span class="text-space">Используется кальян с подсветкой и премиальный табак.</span>
+                    Один перезабив табака и добавки в колбу бесплатно.
+                </div>
+                <div class="our-menu__price">
+                    2000 руб.
+                </div>
+                <div class="our-menu__img third"></div>
+            </div>
+            <div class="our-menu__item last-item">
+                <h3 class="our-menu__title">Дополнительно</h3>
+                <div class="our-menu__text">
+                    <div class="our-menu__text-space">Добавки в колбу на выбор:</div>
+                    <div class="our-menu__text-space">-молоко</div>
+                    <div class="our-menu__text-space">-сок</div>
+                    <div class="our-menu__text-space">-сиропы</div>
+                    <div class="our-menu__text-space">-ликер</div>
+                    <div class="our-menu__price">
+                        200 руб.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="our-menu__items our-snaks">
+            <div class="our-menu__item">
+                <h3 class="our-menu__title">Чурчхела</h3>
+                <div class="our-menu__text">
+                    <span class="text-space">традиционное грузинское национальное лакомство</span>
+                </div>
+                <div class="our-menu__price">
+                    700 руб.
+                </div>
+                <div class="our-menu__img fifth"></div>
+            </div>
+            <div class="our-menu__item">
+                <h3 class="our-menu__title">Чипсы и сальса</h3>
+                <div class="our-menu__text">
+                    <span class="text-space">Хрустящие чипсы с острым соусом сальса или гуакамоле.</span>
+                </div>
+                <div class="our-menu__price">
+                    800 руб.
+                </div>
+                <div class="our-menu__img img-salsa"></div>
+            </div>
+            <div class="our-menu__item">
+                <h3 class="our-menu__title">Мини-бургеры</h3>
+                <div class="our-menu__text">
+                    <span class="text-space">Маленькие бургеры с различными начинками (говядина, курица, вегетарианские).</span>
+                </div>
+                <div class="our-menu__price">
+                    1000 руб.
+                </div>
+                <div class="our-menu__img img-burgers"></div>
+            </div>
+        </div>
+        <div class="our-menu__items our-cocktails">
+            <div class="our-menu__item">
+                <h3 class="our-menu__title">Зеленый чай</h3>
+                <div class="our-menu__text">
+                    <span class="text-space">Освежающий зеленый чай с натуральными листьями, прекрасно бодрит и утоляет жажду</span>
+                </div>
+                <div class="our-menu__price">
+                    500 руб.
+                </div>
+                <div class="our-menu__img img-tea"></div>
+            </div>
+            <div class="our-menu__item">
+                <h3 class="our-menu__title">Фруктовый чай</h3>
+                <div class="our-menu__text">
+                    <span class="text-space">Сочный фруктовый чай с яркими вкусами фруктов и ягод, идеальный выбор для освежения в любое время дня.</span>
+                </div>
+                <div class="our-menu__price">
+                    700 руб.
+                </div>
+                <div class="our-menu__img img-fruitTea"></div>
+            </div>
+            <div class="our-menu__item">
+                <h3 class="our-menu__title">Мохито</h3>
+                <div class="our-menu__text">
+                    <span class="text-space">Легкий и освежающий мохито с мятой и лаймом, идеальный для летних вечеров.</span>
+                </div>
+                <div class="our-menu__price">
+                    800 руб.
+                </div>
+                <div class="our-menu__img img-mohito"></div>
+            </div>
+            <div class="our-menu__item">
+                <h3 class="our-menu__title">Пина Колада</h3>
+                <div class="our-menu__text">
+                    <span class="text-space">Тропическая Пина Колада с кремовым кокосовым вкусом и сладким ананасовым оттенком, превосходный выбор для наслаждения в тропиках.</span>
+                </div>
+                <div class="our-menu__price">
+                    800 руб.
+                </div>
+                <div class="our-menu__img img-pinaColada"></div>
+            </div>
+        </div>
+        <div class="our-map our-menu__items">
+                <div class="our-menu__item">
+                    <h3 class="our-menu__title">Пиво </h3>
+                    <div class="our-menu__text">
+                        <ul>
+                            <li>Лагер: Германия - 500 мл - 500 руб</li>
+                            <li>IPA: США - 500 мл - 700 руб</li>
+                        </ul>
+                    </div>
+                    <div class="our-menu__img img-lager"></div>
+                </div>
+                <div class="our-menu__item">
+                    <h3 class="our-menu__title">Крепкий алкоголь </h3>
+                    <div class="our-menu__text">
+                        <ul>
+                            <li>Виски: Jameson, Ирландия - 50 мл - 500 руб</li>
+                            <li>Водка: Belvedere, Польша - 50 мл - 400 руб</li>
+                        </ul>
+                    </div>
+                    <div class="our-menu__img img-strongAlcohol"></div>
+                </div>
+                <div class="our-menu__item">
+                    <h3 class="our-menu__title">Соки и лимонады</h3>
+                    <div class="our-menu__text">
+                        <ul>
+                            <li>Апельсиновый сок - 250 мл - 300 руб</li>
+                            <li>Лимонад - 250 мл - 300 руб</li>
+                        </ul>
+                    </div>
+                    <div class="our-menu__img img-softDrink"></div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section class="promo">
+    <div class="container">
+        <h2 class="promo-title title">Наши акции</h2>
+        <div class="promo-text">
+            Все акции действительны с 1.12.2020
+            до 31.12.2020. Подробности уточняйте по телефону или у официанта.
+        </div>
+        <div class="promo-items">
+            <div class="promo-item">
+                <div class="promo-img">
+                    <img src="assets/images/promo1.png" alt="">
+                </div>
+                <div class="promo-description">
+                    Скидка 25% на любой кальян с понедельника по четверг.
+                </div>
+            </div>
+            <div class="promo-item">
+                <div class="promo-img">
+                    <img src="assets/images/promo2.png" alt="">
+                </div>
+                <div class="promo-description">
+                    При покупке любого премиум кальяна 1 л чая в подарок!
+                </div>
+            </div>
+
+            <div class="promo-item">
+                <div class="promo-img">
+                    <img src="assets/images/promo3.png" alt="">
+                </div>
+                <div class="promo-description">
+                    Отметьте нас в Instagram @smoke_city и получите скидку 10% на действующий заказ.
+                </div>
+            </div>
+        </div>
+        <div class="swiper promoSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="promo-item">
+                        <div class="promo-img">
+                            <img src="assets/images/promo1.png" alt="">
+                        </div>
+                        <div class="promo-description">
+                            Скидка 25% на любой кальян с понедельника по четверг.
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="promo-item">
+                        <div class="promo-img">
+                            <img src="assets/images/promo1.png" alt="">
+                        </div>
+                        <div class="promo-description">
+                            Скидка 25% на любой кальян с понедельника по четверг.
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="promo-item">
+                        <div class="promo-img">
+                            <img src="assets/images/promo1.png" alt="">
+                        </div>
+                        <div class="promo-description">
+                            Скидка 25% на любой кальян с понедельника по четверг.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination2"></div>
+    </div>
+</section>
+
+<section class="our-bar" id="gallery">
+    <div class="container">
+        <h2 class="our-bar__title title">Посмотрите нашу обстановку внутри</h2>
+        <div class="our-bar__items">
+            <a class="our-bar__item item1" href="assets/images/our1.png">
+            </a>
+            <a class="our-bar__item item2" href="assets/images/our2.png">
+            </a>
+            <a class="our-bar__item item3" href="assets/images/our3.png">
+            </a>
+            <a class="our-bar__item item4" href="assets/images/our4.png">
+            </a>
+        </div>
+        <div class="swiper our-barSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="our-bar__item item1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="our-bar__item item2">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="our-bar__item item3">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="our-bar__item item4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination3"></div>
+    </div>
+</section>
+
+<section class="order" id="order">
+    <div class="container order__container">
+        <div class="order__box">
+            <form action="#" class="order__form" id="order-form">
+                <h2 class="order__title title">Забронируйте столик или VIP-комнату
+                    прямо сейчас! </h2>
+                <input type="text" placeholder="Ваше имя" id="name" class="order__name">
+                <div class="form-error">Введите ваше имя</div>
+                <input type="text" placeholder="Ваш телефон" id="phone" class="order__phone">
+                <div class="form-error">Введите номер телефона</div>
+                <div class="order__action">
+                    <button class="btn order__btn" id="btn" type="button">Забронировать</button>
+                </div>
+                <div class="order-warning">
+                    *В течении 15 минут наш администратор свяжется
+                    с вами, чтобы подтвердить бронь стола или комнаты.
+                </div>
+            </form>
+            <div class="main__title" id="orderTxt">
+                Спасибо, мы свяжемся с вами в ближайшее время!
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="location" id="location">
+    <div class="container">
+        <h2 class="location__title title">
+            Где мы находимся?
+        </h2>
+        <div class="location-items">
+            <div class="location-map">
+                <div style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.com/maps/org/nuahule_smoke/120105238525/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Nuahule Smoke</a><a
+                        href="https://yandex.com/maps/10278/batumi/category/hookah_lounge/34866769160/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Hookah lounge in Batumi</a>
+                    <iframe src="https://yandex.com/map-widget/v1/?display-text=%D0%9A%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD-%D0%B1%D0%B0%D1%80&from=mapframe&ll=41.594601%2C41.622545&mode=search&oid=120105238525&ol=biz&sctx=ZAAAAAgBEAAaKAoSCX9LAP4pzURAEbWlDvJ60ERAEhIJl8lwPJ8BlT8RzJpY4Cu6hT8iBgABAgMEBSgKOABAplBIAWIlcmVsZXZfaXJyZWxfZmlsdGVyPWlycmVsX2RjNTE0NTkxX2V4cGI1cmVhcnI9c2NoZW1lX0xvY2FsL0dlby9Qb3N0ZmlsdGVyL0lycmVsVGhyZXNob2xkPTAuMTViO3JlYXJyPXNjaGVtZV9Mb2NhbC9HZW8vUG9zdGZpbHRlci9JcnJlbFRocmVzaG9sZEZvckFkcz0wLjEwYj1yZWFycj1zY2hlbWVfTG9jYWwvR2VvL1Bvc3RmaWx0ZXIvRGVjaWRlVGhyZXNob2xkQnlSdWJyPWZhbHNlagJ1YZ0BzcxMPaABAKgBAL0BE2iCxsIBBv3%2F0ba%2FA4ICHSgoY2F0ZWdvcnlfaWQ6KDM0ODY2NzY5MTYwKSkpigILMzQ4NjY3NjkxNjCSAgCaAgxkZXNrdG9wLW1hcHM%3D&sll=41.594601%2C41.622545&source=mapframe&sspn=0.009504%2C0.004916&text=%7B%22text%22%3A%22%D0%9A%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD-%D0%B1%D0%B0%D1%80%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22category_id%22%2C%22attr_values%22%3A%5B%2234866769160%22%5D%7D%5D%7D&utm_source=mapframe&z=17.11"
+                            width="560" height="400" frameborder="1" allowfullscreen="true"
+                            style="position:relative;"></iframe>
+                </div>
+            </div>
+            <div class="location-content">
+                <div class="location-content__address">
+                    <h3 class="location-content__title">Наш адрес</h3>
+                    <div class="location-description">
+                        Москва, ул. Верхняя Радищевская,
+                        5 (м. Таганская, кольцевая)
+                    </div>
+                </div>
+                <div class="location-content__work-time">
+                    <h3 class="location-content__title">Время работы</h3>
+                    <div class="location-description">
+                        <div class="work-time__items">
+                            <div class="work-time__item">
+                                Пн-Чт с 18 до 00
+                            </div>
+                            <div class="work-time__item">
+                                Пт-Сб с 20 до 5
+                            </div>
+                            <span class="text-space">
+                        Вход 18+ и строго по предьявлению паспорта.
+                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-content__socials">
+                    <h3 class="location-content__title">Следите за нами в соц.сетях</h3>
+                    <div class="socials">
+                        <div class="socials__inst social">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path d="m75 512h362c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75zm-45-437c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45v362c0 24.8125-20.1875 45-45 45h-362c-24.8125 0-45-20.1875-45-45zm0 0"/>
+                                    <path d="m256 391c74.4375 0 135-60.5625 135-135s-60.5625-135-135-135-135 60.5625-135 135 60.5625 135 135 135zm0-240c57.898438 0 105 47.101562 105 105s-47.101562 105-105 105-105-47.101562-105-105 47.101562-105 105-105zm0 0"/>
+                                    <path d="m406 151c24.8125 0 45-20.1875 45-45s-20.1875-45-45-45-45 20.1875-45 45 20.1875 45 45 45zm0-60c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="socials__vk social">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="1 -104 511.99902 511">
+                                    <path d="m456.738281 202.101562-.277343-.257812c-4.371094-4.035156-17.761719-17.066406-22.277344-22.761719-5.300782-7.105469-4.078125-11.761719-.105469-18.738281 5.019531-8.816406 15.078125-22.339844 25.722656-36.660156 34.09375-45.851563 56.105469-77.59375 51.574219-100.140625l-2.441406-12.042969-125.910156.054688c-.441407 1.1875-7.011719 30.050781-34.738282 79.199218-20.105468 35.636719-33.292968 46.832032-37.9375 48.808594l-.71875-.21875c-1.511718-1.867188-4.152344-6.90625-5.238281-19.894531-1.132813-13.605469-.128906-30.078125.84375-46.007813 1.136719-18.679687 2.117187-34.8125-.230469-46.355468l-3.824218-18.804688c-4.621094-.738281-21.539063-7.265625-68.675782-7.761719-40.808594-.417969-52.796875 5.476563-58.683594 10.671875l-19.472656 17.183594 24.613282 8.28125c9.367187 3.152344 12.476562 6.789062 15.027343 24.816406 1.664063 11.75 2.535157 31.496094.738281 49.125-2.582031 25.277344-8.773437 29.980469-9.09375 30.230469-1.066406-.363281-10.109374-4.320313-25.808593-37.511719-10.890625-23.019531-20.4375-50.25-27.414063-70.132812-7.984375-22.769532-6.546875-17.921875-10.597656-28.679688l-121.8125-.003906 7.882812 20.390625c32.863282 85.089844 63.015626 151.539063 103.367188 199.265625 44.582031 52.730469 99.988281 80.339844 174.621094 80.339844h15v-15c0-14.023438 1.160156-24.121094 3.648437-31.777344 1.519531-4.664062 3.539063-8.519531 5.660157-12.5625 3.148437-5.953125 6.226562-8.503906 7.90625-8.882812 1.523437-.347657 4.203124.769531 7.171874 2.984374 8.523438 6.355469 15.289063 14.707032 22.453126 23.550782 10.335937 12.761718 21.023437 25.953125 37.980468 34.589844 9.265625 4.71875 26.25 7.101562 35.597656 7.101562 2.472657 0 90.601563-.003906 90.710938-.003906l-.644531-15.617188c-.960938-23.351562-19.339844-52.550781-54.617188-86.777344zm-34.867187 72.394532h-.242188c-6.445312.105468-18.746094-2.007813-22.324218-3.828125-11.273438-5.742188-19.152344-15.472657-28.28125-26.738281-8.011719-9.894532-16.296876-20.125-27.832032-28.722657-9.328125-6.957031-17.800781-8.992187-24.527344-8.992187-2.6875 0-5.101562.324218-7.171874.792968-7.808594 1.757813-18.976563 7.375-27.855469 24.167969-2.503907 4.777344-5.34375 10.1875-7.644531 17.265625-2.410157 7.40625-3.910157 15.636719-4.625 25.648438-56.242188-3.195313-100.128907-25.445313-137.207032-69.300782-34.472656-40.777343-61.59375-97.8125-90.316406-170.300781 2.078125 0 54.152344.007813 57.226562.007813.941407 2.644531 1.957032 5.542968 3.035157 8.613281 7.519531 21.449219 17.820312 50.820313 29.957031 75.867187 17.378906 35.867188 33.25 51.863282 51.457031 51.863282 9.089844 0 17.242188-3.851563 23.574219-11.144532 9.027344-10.394531 14.269531-27.550781 16.027344-52.453124 1.386718-19.636719.097656-39.195313-1.425782-49.972657-1.257812-8.867187-3.050781-18.175781-7.425781-26.515625 18.644531-.839844 43.609375.488282 59.425781 2.757813 1.4375 7.828125.5 23.214843-.40625 38.101562-2.191406 35.960938-4.453124 73.070313 14.582032 90.433594 3.347656 3.054687 6.898437 4.691406 7 4.757813l9.6875 2.972656c3.738281-1.152344 25.390625 9.832031 66.390625-61.71875 13.136719-22.925782 25.367187-49.34375 31.953125-66.597656 15.273437-.03125 67.308594.027343 73.421875.035156-8.660157 19.058594-29.183594 46.242187-42.597657 64.285156-11.695312 15.726562-21.792968 29.308594-27.71875 39.714844-11.007812 19.332031-9.15625 36.5625 2.308594 51.761718l.179688.234376c6.398437 8.144531 22.199218 23.222656 25.476562 26.261718 23.742188 23.050782 35.183594 39.609375 40.628906 50.738282h-54.730468zm0 0"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="socials__whatsUp social">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path d="m123.832031 475.464844c39.558594 23.804687 84.789063 36.351562 131.261719 36.351562 140.824219 0 256.90625-114.914062 256.90625-255.910156 0-140.832031-115.917969-255.90625-256.90625-255.90625-140.558594 0-254.910156 114.800781-254.910156 255.90625 0 47.09375 12.550781 92.667969 36.351562 132.257812l-36.535156 123.835938zm-93.65625-219.558594c0-124.570312 100.898438-225.917969 224.917969-225.917969 125.121094 0 226.917969 101.347657 226.917969 225.917969 0 124.574219-101.796875 225.917969-226.917969 225.917969-43.054688 0-84.894531-12.195313-120.984375-35.273438l-5.765625-3.683593-83.988281 24.78125 24.777343-83.992188-3.683593-5.761719c-23.078125-36.097656-35.273438-78.277343-35.273438-121.988281zm0 0"/>
+                                    <path d="m124.628906 208.753906c4.953125 26.011719 19.65625 76.042969 62.464844 118.851563 42.808594 42.808593 92.839844 57.515625 118.855469 62.46875 29.789062 5.671875 73.503906 6.527343 94.867187-14.835938l11.910156-11.910156c6.011719-6.011719 9.324219-14.007813 9.324219-22.511719s-3.3125-16.496094-9.324219-22.507812l-47.628906-47.628906c-6.015625-6.015626-14.007812-9.324219-22.511718-9.324219-8.503907 0-16.496094 3.308593-22.511719 9.324219l-11.90625 11.90625c-7.273438 7.273437-21.003907 7.304687-28.332031.089843l-47.507813-49.5c-.070313-.074219-.140625-.148437-.214844-.21875-7.285156-7.285156-7.285156-19.140625 0-26.425781l11.90625-11.90625c12.445313-12.445312 12.445313-32.582031 0-45.023438l-47.628906-47.628906c-12.410156-12.410156-32.605469-12.410156-45.019531 0l-11.90625 11.910156v-.003906c-17.050782 17.054688-22.734375 53.40625-14.835938 94.875zm36.042969-73.664062c12.5-12.214844 11.832031-12.449219 13.210937-12.449219.472657 0 .945313.179687 1.304688.539063 50.1875 50.457031 48.171875 47.492187 48.171875 48.9375 0 .503906-.183594.945312-.539063 1.304687l-11.910156 11.90625c-18.964844 18.964844-19.039062 49.664063-.121094 68.714844l47.535157 49.53125c.074219.070312.144531.144531.21875.21875 18.960937 18.960937 51.808593 19.023437 70.832031 0l11.90625-11.90625c.71875-.71875 1.890625-.71875 2.609375 0 50.1875 50.453125 48.171875 47.488281 48.171875 48.933593 0 .507813-.183594.945313-.539062 1.304688l-11.910157 11.90625c-8.160156 8.160156-34.152343 13.042969-68.054687 6.585938-22.625-4.3125-66.128906-17.085938-103.257813-54.214844-37.128906-37.128906-49.902343-80.632813-54.210937-103.257813-6.460938-33.902343-1.578125-59.898437 6.582031-68.054687zm0 0"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Logo">
+            <span class="text-space">Все права защищены, 2020</span>
+        </div>
+        <div class="footer-action">
+            <div class="order__action">
+                <button class="btn order__btn">Забронировать</button>
+            </div>
+            <div class="contact">
+                <div class="contact__logo">
+                    <img src="assets/images/phone-call.png" alt="Phone">
+                </div>
+                <div class="contact__items">
+                    <div class="contact__item contact__number">
+                        8 900-500-10-10
+                    </div>
+                    <div class="contact__item">
+                        Звоните нам
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="dist/wow.min.js"></script>
+<script src="dist/jquery.min.js"></script>
+<script src="dist/jquery.magnific-popup.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
